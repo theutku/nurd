@@ -1,0 +1,50 @@
+{
+    "Europe": {
+        "Germany": {
+            "Bavaria": {
+                "Munchen": true,
+                "Furth": true,
+                "Augsburg": true
+            },
+            "Brandenburg": {
+                "Berlin": true,
+                "Potsdam": true
+            }
+        },
+        "Turkey": {
+            "Afyon": true,
+            "Ankara": {
+                "Çankaya": {
+                    "Bilkent": true
+                },
+                "Mamak": true,
+                "Yenimahalle": true
+            },
+            "Batman": true
+        }
+    },
+    "Asia": {
+        "China": {
+            "Bavaria": {
+                "Munchen": true,
+                "Furth": true,
+                "Augsburg": true
+            },
+            "Brandenburg": {
+                "Berlin": true,
+                "Potsdam": true
+            }
+        },
+        "Turkey": {
+            "Afyon": true,
+            "Ankara": {
+                "Çankaya": {
+                    "Bilkent": true
+                },
+                "Mamak": true,
+                "Yenimahalle": true
+            },
+            "Batman": true
+        }
+    }
+}

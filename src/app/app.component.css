@@ -1,0 +1,31 @@
+.main-title {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.main-title small {
+    font-weight: normal;
+    color: #888;
+    display: block;
+}
+
+.container {
+    font-family: 'Roboto';
+    width: 600px;
+    margin: 30px auto 0;
+    display: block;
+    background: #fff;
+    padding: 10px 50px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.container:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.result {
+    background-color: #129258;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}

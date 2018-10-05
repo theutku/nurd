@@ -1,0 +1,13 @@
+<div class="custom-selection-container" (click)="hideSelectionOptions()">
+  <div class="selector" (click)="selectionsClicked($event)">
+    <span>{{resultText}}</span>
+    <div *ngIf="selectionsOpen" class="selection-dropdown" (dblclick)="selectionsDblClick($event)">
+      <div class="option" *ngFor="let selectionOption of selectionOptions" (click)="selectOption(selectionOption,$event)">
+        {{selectionOption.displayText}}
+      </div>
+    </div>
+  </div>
+  <div class="icon-container">
+    <i class="fa fa-2x status-icon" [ngClass]="{'fa-check' :complete == true}"></i>
+  </div>
+</div>
